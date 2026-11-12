@@ -6,7 +6,7 @@ import org.readium.r2.shared.publication.epub.EpubLayout
 import org.readium.r2.shared.publication.epub.layoutOf
 import org.readium.r2.shared.publication.presentation.presentation
 
-internal data class PageSize(val width: Double, val height: Double)
+data class PageSize(val width: Double, val height: Double)
 
 private const val SAMPLED_PAGES = 3
 private const val HEAD_BYTES = 16384L
